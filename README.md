@@ -32,9 +32,9 @@ Configure your Timestamp API key by setting environment variable `TIMESTAMP_API_
 $ TIMESTAMP_API_KEY="YOUR_API_KEY" bin/console
 ```
 
-Or set it manually from the console:
+Or set it in ruby:
 ```ruby
-TimestampAPi.api_key = "YOUR_API_KEY"
+TimestampAPI.api_key = "YOUR_API_KEY"
 ```
 
 #### Clients
